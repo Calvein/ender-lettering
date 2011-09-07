@@ -1,0 +1,14 @@
+{
+	"name": "ender-lettering",
+	"description": "an Ender plugin for radical web typography",
+	"version": "1.0.0",
+	"homepage": "https://github.com/Calvein/ender-lettering",
+	"author": "François Robichet <@calvein> (http://francois.robichet.com)",
+	"repository": {
+		"type": "git",
+		"url": "https://github.com/Calvein/ender-lettering.git"
+	},
+	"main": "./ender-lettering.js",
+	"keywords": ["ender", "lettering", "typography"],
+	"ender": "noop"
+}
