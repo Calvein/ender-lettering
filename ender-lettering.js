@@ -1,5 +1,5 @@
-/*
-* ender-ettering 0.6.1
+/*!
+* ender-lettering 0.6.1
 *
 * Copyright 2010, Dave Rupert http://daverupert.com
 * Ported to ender by François Robichet http://francois.robichet.com
