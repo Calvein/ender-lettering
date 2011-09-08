@@ -1,6 +1,6 @@
 Ender Lettering
 -------
-It's [Lettering.js](http://letteringjs.com/) -- for Ender!
+It's [Lettering.js](http://letteringjs.com/) -- for [Ender](http://ender.no.de/)!
 
 Use it:
 
