@@ -4,9 +4,11 @@
 * Copyright 2010, Dave Rupert http://daverupert.com
 * Ported to ender by François Robichet http://francois.robichet.com
 * Released under the WTFPL license 
+* http://sam.zoy.org/wtfpl/
 *
 * Date: Mon Sep 20 17:14:00 2010 -0600
 */
+
 !(function($){
     function injector(t, splitter, klass, after) {
 		var a = t.text().split(splitter), inject = '';
