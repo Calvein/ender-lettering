@@ -44,18 +44,17 @@
 				// (*ahem* IE *ahem*), we replaces all <br/> instances with an md5 hash 
 				// (of the word "split").  If you're trying to use this plugin on that 
 				// md5 hash string, it will fail because you're being ridiculous.
-				$(this).find('br').after(r).remove();
-				injector($(this), r, 'line', '');
+				injector($(this).find('br').after(r).remove().end(), r, 'line', '');
 			});
 
 		}
 	};
 
 	$.ender({
-		lettering: function( method ) {
+		lettering: function(method) {
 			if (method && methods[method]) {
-				return methods[ method ].apply(this, [].slice.call(arguments, 1));
-			} else if (method === 'letters' || ! method) {
+				return methods[method].apply(this, [].slice.call(arguments, 1));
+			} else if (method === 'letters' || !method) {
 				return methods.init.apply(this, [].slice.call(arguments, 0));
 			}
 			return this;
