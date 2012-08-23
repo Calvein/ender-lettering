@@ -1,3 +1,4 @@
+[![build status](https://secure.travis-ci.org/Calvein/ender-lettering.png)](http://travis-ci.org/Calvein/ender-lettering)
 Ender Lettering
 -------
 It's [Lettering.js](http://letteringjs.com/) -- for [Ender](http://ender.no.de/)!
